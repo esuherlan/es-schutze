@@ -1,0 +1,98 @@
+:root {
+  --yellow: #EBBA4A; 
+  --orange: #E8A03E;
+  --light-blue: #5AC6FA;
+  --dark-blue: #459CE3; 
+  --red: #E3634D;
+  --gray: #777777;
+  --white: #FFFFFF;
+}
+
+body {
+  background: url('../images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: var(--white);
+}
+
+.container-info {
+  background-color: var(--gray);
+}
+.container-info .info-wrapper {
+  padding: 20px;
+}
+.info-header .info-icon img {
+  width: 64px;
+  height: 64px;
+  float: left;
+}
+.info-header .info-text p {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 5rem;
+}
+.info-body p {
+  font-size: 1rem;
+}
+
+.google-chrome  {
+  background-color: var(--yellow);
+  opacity: .77;
+}
+
+.mozilla-firefox {
+  background-color: var(--orange);
+  opacity: .77;
+}
+
+.microsoft-edge {
+  background-color: var(--light-blue);
+  opacity: .77;
+}
+
+.apple-safari {
+  background-color: var(--dark-blue);
+  opacity: .77;
+}
+
+.opera {
+  background-color: var(--red);
+  opacity: .77;
+}
+
+.browser .browser-block {
+  margin: 15px 0;
+}
+.browser .icon-browser {
+  height: 64px;
+  width: 64px;
+  float: left;
+}
+.browser .icon-download {
+  height: 36px;
+  width: 36px;
+  float: right;
+  margin-top: -45px;
+}
+.browser .name {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.browser .version {
+  font-size: 1.2rem;
+}
+
+.browser .name,
+.browser .version {
+  display: block;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+
+.svg-white {
+  filter: brightness(0) invert(1);
+  font-weight: 700;
+}
