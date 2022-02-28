@@ -126,7 +126,31 @@ body {
     position: absolute;
     bottom: 10%;
   }
-  .browser .name, .browser .version {
+  .browser .name,
+  .browser .version {
     clear: both;
+    margin: 0;
+  }
+  .browser-name {
+    padding-left: 10px;
+  }
+
+  .browser .icon-browser {
+    height: 128px;
+    width: 128px;
+  }
+
+  .three-center {
+    margin-left: 40px;
+  }
+  .one-left {
+    margin-left: 160px;
+  }
+  .one-right {
+    margin-left: 30px;
+  }
+
+  .three-name {
+    margin-left: 20px;
   }
 }
