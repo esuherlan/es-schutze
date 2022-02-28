@@ -91,8 +91,42 @@ body {
   margin-right: 50px;
 }
 
-
 .svg-white {
   filter: brightness(0) invert(1);
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .container-info {
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+    width: 100%;
+    z-index: 9999;
+  }
+  .info-header,
+  .info-body {
+    margin-left: 25%;
+    width: 50%;
+  }
+  .info-header .info-icon img {
+    width: 32px;
+    height: 32px;
+    float: left;
+  }
+  .info-header .info-text p {
+    margin-left: 3rem;
+    padding-top: 5px;
+  }
+  .browser {
+    height: 100%;
+  }
+  .browser .browser-block {
+    position: absolute;
+    bottom: 10%;
+  }
+  .browser .name, .browser .version {
+    clear: both;
+  }
 }
