@@ -99,9 +99,9 @@ body {
 @media (min-width: 768px) {
   .container-info {
     position: absolute;
-    top: 40%;
-    -ms-transform: translateY(-40%);
-    transform: translateY(-40%);
+    top: 30%;
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%);
     width: 100%;
     z-index: 9999;
   }
@@ -123,13 +123,22 @@ body {
     height: 100%;
   }
   .browser .browser-block {
-    position: absolute;
-    bottom: 10%;
+    position: relative;
+    top: 55%;
+    width: 100%;
+  }
+  .browser .name {
+    font-size: 1.2rem;
+    padding-top: 20px;
+  }
+  .browser .version {
+    font-size: 1rem;
   }
   .browser .name,
   .browser .version {
     clear: both;
     margin: 0;
+    text-align: center;
   }
   .browser-name {
     padding-left: 10px;
@@ -150,7 +159,38 @@ body {
     margin-left: 30px;
   }
 
-  .three-name {
-    margin-left: 20px;
+  .google-chrome .name,
+  .google-chrome .version {
+    margin-left: 120px;;
+  }
+
+  .opera .name,
+  .opera .version {
+    margin-right: 120px;
+  }
+
+  .btn-info-download {
+    border: #FFFFFF 1px solid;
+    background-color: #A9A9A9;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    font-size: .8rem;
+  }
+
+  .btn-browser-download {
+    border: #FFFFFF 1px solid;
+    background-color: #A9A9A9;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    font-size: .8rem;
+    margin: 15px 60px;
+  }
+
+  .google-chrome .btn-browser-download {
+    margin-left: 170px;
+  }
+
+  .opera .btn-browser-download {
+    margin-left: 50px;
   }
 }
